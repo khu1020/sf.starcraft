@@ -10,6 +10,6 @@ public class Marine extends AttackUnit {
 
 	@Override
 	public String toString() {
-		return "Marine" + super.toString();
+		return "Marine -> " + super.toString();
 	}
 }

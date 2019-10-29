@@ -10,6 +10,6 @@ public class FireBat extends AttackUnit {
 
 	@Override
 	public String toString() {
-		return "FireBat" + super.toString();
+		return "FireBat -> " + super.toString();
 	}
 }

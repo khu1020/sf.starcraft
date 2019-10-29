@@ -19,6 +19,6 @@ public class Medic extends Unit {
 
 	@Override
 	public String toString() {
-		return "Medic: " + super.toString();
+		return "Medic -> " + super.toString();
 	}
 }

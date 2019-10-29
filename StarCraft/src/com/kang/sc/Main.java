@@ -21,7 +21,8 @@ public class Main {
 		System.out.println(sieg);
 		sieg.changeMode();
 		System.out.println(sieg);
-		sieg.changeMode();
-		System.out.println(sieg);
+		sieg.attack(fb);
+		System.out.println(fb);
+
 	}
 }
