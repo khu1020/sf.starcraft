@@ -6,6 +6,8 @@ public class Main {
 		FireBat fb = new FireBat();
 		Medic md = new Medic();
 		SiegTank sieg = new SiegTank();
+		Barrack barrack = new Barrack();
+		Building b = new Barrack();
 
 		mi.attack(fb);
 		mi.attack(fb);
@@ -23,6 +25,14 @@ public class Main {
 		System.out.println(sieg);
 		sieg.attack(fb);
 		System.out.println(fb);
+		
+		Unit u = barrack.makeUnit(3);
+		
+		System.out.println(u);
+		
+		b.landing();
+		b = new Academy();
+		b.landing();
 
 	}
 }
